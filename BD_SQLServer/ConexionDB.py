@@ -8,6 +8,7 @@ cn = db.connect("Driver={ODBC Driver 17 for SQL Server}; "
 cursor = cn.cursor()
 #cursor.execute("select * from dbo.pais;")
 cursor.execute("uspListarPais;") #Se reemplazo la consulta (linea 9) por un procedimiento
+#cursor.execute("exec uspFiltrarPais @id={0};".format("1")) #Consulta con parametro idPais
 
 ruta ="C:\Cursos\PYTHON\Proyecto\BD_ConexionConsultas\\archivoPython.txt"
 file = open(ruta,"w") #Genera archivo .txt

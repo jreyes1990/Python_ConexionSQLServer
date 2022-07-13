@@ -17,5 +17,14 @@ begin
 	from pais;
 end;
 
+create procedure uspFiltrarPais(@id int)
+as
+begin
+	select idpais,nombre 
+	from pais
+	where idpais=@id;
+end;
+
 exec uspListarPais;
 exec uspCantidadPais;
+exec uspFiltrarPais 4;
