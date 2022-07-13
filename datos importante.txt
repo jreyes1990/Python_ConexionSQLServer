@@ -1,0 +1,13 @@
+***** Instalar Python *****
+https://www.python.org/downloads/
+
+***** Instalar Pandas en la terminal (CMD) *****
+pip install pandas
+
+***** Actualizar PIP en la terminal (CMD), como administrador *****
+cd C:\Python310
+python -m pip install --upgrade pip
+
+***** Solucionar errores de PANDA *****
+https://ittutorialpoint-com.translate.goog/warning-ignoring-invalid-distribution-cpython310libsite-packages/?_x_tr_sl=auto&_x_tr_tl=es&_x_tr_hl=es
+
