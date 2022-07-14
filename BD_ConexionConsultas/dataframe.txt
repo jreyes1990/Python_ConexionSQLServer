@@ -1,7 +1,5 @@
-   idpais      nombre
-0       1   Guatemala
-1       2  El Savador
-2       3      Mexico
-3       4  Costa Rica
-4       5        EEUU
-5       6      España
+id_cine,nombre,id_tipo_cine,direccion,fecha_apertura,b_habilitado
+1,Cine Cas,1,Paseo Colon,2021-03-15,1
+2,Cine Lark,2,Paseo Rincon,2011-12-15,1
+3,Cine Rest,3,Paseo Market,2012-05-14,1
+4,Super Cinemax,1,En la esquina,2019-11-09,0
