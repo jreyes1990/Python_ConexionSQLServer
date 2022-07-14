@@ -11,3 +11,8 @@ python -m pip install --upgrade pip
 ***** Solucionar errores de PANDA *****
 https://ittutorialpoint-com.translate.goog/warning-ignoring-invalid-distribution-cpython310libsite-packages/?_x_tr_sl=auto&_x_tr_tl=es&_x_tr_hl=es
 
+***** Instalar openpyml en la terminal (CMD) *****
+pip install openpyxl
+
+***** Instalar entorno virtual en la terminal (CMD), dentro de la carpeta del proyecto a desarrollar *****
+pip install virtualenv
