@@ -14,5 +14,21 @@ https://ittutorialpoint-com.translate.goog/warning-ignoring-invalid-distribution
 ***** Instalar openpyml en la terminal (CMD) *****
 pip install openpyxl
 
-***** Instalar entorno virtual en la terminal (CMD), dentro de la carpeta del proyecto a desarrollar *****
+***** Instalar entorno virtual en la terminal (CMD) en modo administrador, dentro de la carpeta del proyecto a desarrollar *****
 pip install virtualenv
+
+***** Creando mi primer entorno virtual en la terminal (CMD), dentro de la carpeta del proyecto a desarrollar *****
+virtualenv miPrimerEntornoVirtual
+
+***** Activatar mi entorno virtual en la terminal (CMD), dentro de la carpeta del proyecto a desarrollar *****
+cd C:\Cursos\PYTHON\Proyecto\Proyecto-Django\miPrimerEntornoVirtual\Scripts
+activate
+
+***** Dentro de mi entorno virtual activado en la terminal (CMD), dentro de la carpeta del proyecto a desarrollar, instalar django *****
+pip install django
+
+***** Dentro de mi entorno virtual activado en la terminal (CMD), dentro de la carpeta del proyecto a desarrollar, crear proyecto django *****
+django-admin.exe startproject miPrimerProyectoEnDjango
+
+***** Para levantar el servidor de mi primer proyecto en django, C:\Cursos\PYTHON\Proyecto\Proyecto-Django\miPrimerEntornoVirtual\Scripts\miPrimerProyectoEnDjango *****
+python manage.py runserver
